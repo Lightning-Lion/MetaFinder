@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "图像资源.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,908 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040A405427B7C2EE00FE106C /* 延迟加载图片.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A405327B7C2EE00FE106C /* 延迟加载图片.swift */; };
+		040A760E27B9FE5D00B67037 /* Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A760D27B9FE5D00B67037 /* Debug.swift */; };
+		0411F2CE27F9B27F00ACECE3 /* 地图加载Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0411F2CD27F9B27F00ACECE3 /* 地图加载Model.swift */; };
+		0449DFDA27C4A51A0054A1B5 /* 距离.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449DFD927C4A51A0054A1B5 /* 距离.swift */; };
+		0449DFFC27C4DAF20054A1B5 /* 一碰卡片.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449DFFB27C4DAF20054A1B5 /* 一碰卡片.swift */; };
+		0449DFFE27C4E0C00054A1B5 /* 物品清单（长）.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0449DFFD27C4E0C00054A1B5 /* 物品清单（长）.jpeg */; };
+		0449E00027C4E11D0054A1B5 /* 区域.heic in Resources */ = {isa = PBXBuildFile; fileRef = 0449DFFF27C4E11D0054A1B5 /* 区域.heic */; };
+		0449E00427C4E1570054A1B5 /* 设置（短）.heic in Resources */ = {isa = PBXBuildFile; fileRef = 0449E00327C4E1570054A1B5 /* 设置（短）.heic */; };
+		04517DEC27B6B10B00890F5D /* 计划任务.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04517DEB27B6B10B00890F5D /* 计划任务.swift */; };
+		04517DF027B6B65E00890F5D /* 手势识别.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04517DEF27B6B65E00890F5D /* 手势识别.swift */; };
+		04517DF227B6B71500890F5D /* 指示标.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04517DF127B6B71500890F5D /* 指示标.swift */; };
+		04517DF427B6B88C00890F5D /* 重命名窗口.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04517DF327B6B88C00890F5D /* 重命名窗口.swift */; };
+		046EDC1827B8BB50008A65B8 /* UI旋转Kit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046EDC1727B8BB50008A65B8 /* UI旋转Kit.swift */; };
+		046EDC3827B8BFDC008A65B8 /* 悬浮球手势.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046EDC3727B8BFDC008A65B8 /* 悬浮球手势.swift */; };
+		046EDC3E27B8C060008A65B8 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046EDC3A27B8C060008A65B8 /* GradientView.swift */; };
+		046EDC3F27B8C060008A65B8 /* CGPointExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046EDC3B27B8C060008A65B8 /* CGPointExtensions.swift */; };
+		046EDC4027B8C060008A65B8 /* 悬浮球本体+锚点可视化.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046EDC3C27B8C060008A65B8 /* 悬浮球本体+锚点可视化.swift */; };
+		046EDC4127B8C060008A65B8 /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046EDC3D27B8C060008A65B8 /* Spring.swift */; };
+		046EDC4327B8F4D9008A65B8 /* QuickLookData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046EDC4227B8F4D9008A65B8 /* QuickLookData.swift */; };
+		046EDC4527B8FF3F008A65B8 /* 低成本运行AR View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046EDC4427B8FF3F008A65B8 /* 低成本运行AR View.swift */; };
+		046F5CEF27F9A3100088E19B /* EnterPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046F5CEE27F9A3100088E19B /* EnterPage.swift */; };
+		046F5CF127F9A3260088E19B /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046F5CF027F9A3250088E19B /* Helper.swift */; };
+		046F5CF427F9A3450088E19B /* Introduce.mov in Resources */ = {isa = PBXBuildFile; fileRef = 046F5CF327F9A3450088E19B /* Introduce.mov */; };
+		046F5CF627F9A3460088E19B /* UI Video Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046F5CF527F9A3460088E19B /* UI Video Player.swift */; };
+		046F5CF827F9A8390088E19B /* Course.mov in Resources */ = {isa = PBXBuildFile; fileRef = 046F5CF727F9A8390088E19B /* Course.mov */; };
+		046F5CFA27F9A8E40088E19B /* Q&A Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046F5CF927F9A8E40088E19B /* Q&A Page.swift */; };
+		04A0BB8927B2781D00375C5B /* 物品列表View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A0BB8827B2781D00375C5B /* 物品列表View.swift */; };
+		04A0BB8E27B29FFB00375C5B /* RKPointPin in Frameworks */ = {isa = PBXBuildFile; productRef = 04A0BB8D27B29FFB00375C5B /* RKPointPin */; };
+		04A0BB9027B3C26200375C5B /* AR Coaching Overlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A0BB8F27B3C26200375C5B /* AR Coaching Overlay.swift */; };
+		04A0BB9227B3EDE900375C5B /* 欢迎屏幕.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A0BB9127B3EDE900375C5B /* 欢迎屏幕.storyboard */; };
+		04A0BB9427B4026E00375C5B /* foreach扩展.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A0BB9327B4026E00375C5B /* foreach扩展.swift */; };
+		04A0BBA327B4DE6B00375C5B /* 检查错误报告.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A0BBA227B4DE6B00375C5B /* 检查错误报告.swift */; };
+		04A0BBA827B4EABD00375C5B /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = 04A0BBA727B4EABD00375C5B /* FocusEntity */; };
+		04A0BBAA27B5123800375C5B /* 对接扩展.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A0BBA927B5123800375C5B /* 对接扩展.swift */; };
+		04A0BBCE27B51BB500375C5B /* 当前地图指示框View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A0BBCD27B51BB500375C5B /* 当前地图指示框View.swift */; };
+		04A0BBD027B6315D00375C5B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A0BBCF27B6315D00375C5B /* ContentView.swift */; };
+		04A0BBEE27B6504000375C5B /* AR拍照.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A0BBED27B6504000375C5B /* AR拍照.swift */; };
+		04A9CB0B27D25E0A00D31789 /* iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A9CB0A27D25E0A00D31789 /* iOS.framework */; };
+		04A9CB0C27D25E0A00D31789 /* iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04A9CB0A27D25E0A00D31789 /* iOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		04D98D1827CA06C7009DC038 /* 使用教学.heic in Resources */ = {isa = PBXBuildFile; fileRef = 04D98D1727CA06C7009DC038 /* 使用教学.heic */; };
+		04EBA46127BA1BD10023F865 /* 导航.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBA46027BA1BD10023F865 /* 导航.swift */; };
+		04EBA49027BA6AE40023F865 /* （弃用）Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBA48F27BA6AE40023F865 /* （弃用）Welcome.swift */; };
+		04FB328A27BB8DD800F0C255 /* 协调员.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB328927BB8DD800F0C255 /* 协调员.swift */; };
+		6725420D1F56011BFD85671A /* Pods_MetaFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 443285637CA5FDEC7A764FA1 /* Pods_MetaFinder.framework */; };
+		902DC0A627A7CEAB0091D04E /* 【扩展】分词搜索.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902DC0A527A7CEAB0091D04E /* 【扩展】分词搜索.swift */; };
+		902DC0A827A7D1070091D04E /* 地图列表View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902DC0A727A7D1070091D04E /* 地图列表View.swift */; };
+		902DC0AA27A7D16C0091D04E /* 地图的数据模型.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902DC0A927A7D16C0091D04E /* 地图的数据模型.swift */; };
+		902DC0AC27A7D4150091D04E /* 【扩展】加载地图.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902DC0AB27A7D4150091D04E /* 【扩展】加载地图.swift */; };
+		902DC0AE27A7D8E80091D04E /* 临时VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902DC0AD27A7D8E80091D04E /* 临时VC.swift */; };
+		902DC0B027A7DF800091D04E /* 便捷弹窗.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902DC0AF27A7DF800091D04E /* 便捷弹窗.swift */; };
+		902DC0B227A7E5BB0091D04E /* 弹出视图控制器.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902DC0B127A7E5BB0091D04E /* 弹出视图控制器.swift */; };
+		902DC0B527A7F48F0091D04E /* Introspect in Frameworks */ = {isa = PBXBuildFile; productRef = 902DC0B427A7F48F0091D04E /* Introspect */; };
+		903F5E9927A8496300DAA10E /* MyARSessionObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903F5E9827A8496300DAA10E /* MyARSessionObserver.swift */; };
+		9044047C27AEBB3E00F40EA2 /* 数据模型.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9044047B27AEBB3E00F40EA2 /* 数据模型.swift */; };
+		9065C04027A3F2550046E957 /* 从ARAnchor创建对象.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9065C03F27A3F2550046E957 /* 从ARAnchor创建对象.swift */; };
+		9065C04227A3FD280046E957 /* 可视化.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9065C04127A3FD280046E957 /* 可视化.swift */; };
+		9065C04427A4022A0046E957 /* 箭头.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 9065C04327A4022A0046E957 /* 箭头.usdz */; };
+		906BFDB327AD1DC000046BE7 /* 循环.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906BFDB227AD1DC000046BE7 /* 循环.swift */; };
+		906BFDB527AD2F1B00046BE7 /* 设置强调色.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906BFDB427AD2F1B00046BE7 /* 设置强调色.swift */; };
+		906BFDB727AD34F700046BE7 /* 更新AR场景中的Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906BFDB627AD34F700046BE7 /* 更新AR场景中的Anchor.swift */; };
+		9082E9C727A3B7CC006C3DB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9082E9C627A3B7CC006C3DB5 /* AppDelegate.swift */; };
+		9082E9C927A3B7CC006C3DB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9082E9C827A3B7CC006C3DB5 /* ViewController.swift */; };
+		9082E9CE27A3B7CC006C3DB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9082E9CC27A3B7CC006C3DB5 /* Main.storyboard */; };
+		9082E9D027A3B7CD006C3DB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9082E9CF27A3B7CD006C3DB5 /* Assets.xcassets */; };
+		9082E9D327A3B7CE006C3DB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9082E9D127A3B7CE006C3DB5 /* LaunchScreen.storyboard */; };
+		9082E9DB27A3B870006C3DB5 /* AR扩展.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9082E9DA27A3B870006C3DB5 /* AR扩展.swift */; };
+		9082E9E127A3B8A9006C3DB5 /* Drops in Frameworks */ = {isa = PBXBuildFile; productRef = 9082E9E027A3B8A9006C3DB5 /* Drops */; };
+		9082E9EC27A3B8F1006C3DB5 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9082E9EB27A3B8EA006C3DB5 /* libc++.tbd */; };
+		9082E9EE27A3B8F6006C3DB5 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9082E9ED27A3B8F6006C3DB5 /* libz.tbd */; };
+		9082E9F027A3BA2F006C3DB5 /* MyARSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9082E9EF27A3BA2F006C3DB5 /* MyARSessionDelegate.swift */; };
+		9082E9F227A3BB46006C3DB5 /* Debug优化.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9082E9F127A3BB46006C3DB5 /* Debug优化.swift */; };
+		9082E9F427A3BE0C006C3DB5 /* 提示.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9082E9F327A3BE0C006C3DB5 /* 提示.swift */; };
+		9082E9F627A3BED2006C3DB5 /* 世界地图.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9082E9F527A3BED2006C3DB5 /* 世界地图.swift */; };
+		9082E9F827A3C3FD006C3DB5 /* 模型.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9082E9F727A3C3FD006C3DB5 /* 模型.swift */; };
+		9082E9FA27A3C730006C3DB5 /* 文件选择器.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9082E9F927A3C730006C3DB5 /* 文件选择器.swift */; };
+		9082E9FF27A3E328006C3DB5 /* 物品数据模型.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9082E9FE27A3E328006C3DB5 /* 物品数据模型.swift */; };
+		9082EA0227A3E366006C3DB5 /* 旧版物品列表View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9082EA0127A3E366006C3DB5 /* 旧版物品列表View.swift */; };
+		90A45E2927AA366600D463A7 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A45E2727AA366500D463A7 /* GridView.swift */; };
+		90A45E2A27AA366600D463A7 /* 【扩展】Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A45E2827AA366600D463A7 /* 【扩展】Grid.swift */; };
+		90A45E2C27AA36C900D463A7 /* 触感.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A45E2B27AA36C900D463A7 /* 触感.swift */; };
+		90A45E2E27AA399300D463A7 /* URL与String互转.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A45E2D27AA399300D463A7 /* URL与String互转.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		04A0BB9F27B4057E00375C5B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				04A9CB0C27D25E0A00D31789 /* iOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		040A405327B7C2EE00FE106C /* 延迟加载图片.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "延迟加载图片.swift"; sourceTree = "<group>"; };
+		040A405527B7D1B300FE106C /* SwURL-0.4.1 */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "SwURL-0.4.1"; path = "../../../../../Downloads/SwURL-0.4.1"; sourceTree = "<group>"; };
+		040A760D27B9FE5D00B67037 /* Debug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debug.swift; sourceTree = "<group>"; };
+		0411F2CD27F9B27F00ACECE3 /* 地图加载Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "地图加载Model.swift"; sourceTree = "<group>"; };
+		04469F2327B774BC00BEF87F /* RKPointPin */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = RKPointPin; path = "../../../../资源/第三方库/RKPointPin"; sourceTree = "<group>"; };
+		04469F2427B7750B00BEF87F /* FocusEntity-2.2.4 */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "FocusEntity-2.2.4"; path = "../../../../资源/第三方库/FocusEntity-2.2.4"; sourceTree = "<group>"; };
+		0449DFD927C4A51A0054A1B5 /* 距离.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "距离.swift"; sourceTree = "<group>"; };
+		0449DFFB27C4DAF20054A1B5 /* 一碰卡片.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "一碰卡片.swift"; sourceTree = "<group>"; };
+		0449DFFD27C4E0C00054A1B5 /* 物品清单（长）.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "物品清单（长）.jpeg"; path = "Assets.xcassets/Grid/Large.imageset/物品清单（长）.jpeg"; sourceTree = "<group>"; };
+		0449DFFF27C4E11D0054A1B5 /* 区域.heic */ = {isa = PBXFileReference; lastKnownFileType = file; name = "区域.heic"; path = "Assets.xcassets/Grid/区域.imageset/区域.heic"; sourceTree = "<group>"; };
+		0449E00327C4E1570054A1B5 /* 设置（短）.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = "设置（短）.heic"; sourceTree = "<group>"; };
+		04517DEB27B6B10B00890F5D /* 计划任务.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "计划任务.swift"; sourceTree = "<group>"; };
+		04517DEF27B6B65E00890F5D /* 手势识别.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "手势识别.swift"; sourceTree = "<group>"; };
+		04517DF127B6B71500890F5D /* 指示标.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "指示标.swift"; sourceTree = "<group>"; };
+		04517DF327B6B88C00890F5D /* 重命名窗口.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "重命名窗口.swift"; sourceTree = "<group>"; };
+		046EDC1727B8BB50008A65B8 /* UI旋转Kit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UI旋转Kit.swift"; sourceTree = "<group>"; };
+		046EDC3727B8BFDC008A65B8 /* 悬浮球手势.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "悬浮球手势.swift"; sourceTree = "<group>"; };
+		046EDC3A27B8C060008A65B8 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		046EDC3B27B8C060008A65B8 /* CGPointExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPointExtensions.swift; sourceTree = "<group>"; };
+		046EDC3C27B8C060008A65B8 /* 悬浮球本体+锚点可视化.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "悬浮球本体+锚点可视化.swift"; sourceTree = "<group>"; };
+		046EDC3D27B8C060008A65B8 /* Spring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spring.swift; sourceTree = "<group>"; };
+		046EDC4227B8F4D9008A65B8 /* QuickLookData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLookData.swift; sourceTree = "<group>"; };
+		046EDC4427B8FF3F008A65B8 /* 低成本运行AR View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "低成本运行AR View.swift"; sourceTree = "<group>"; };
+		046F5CEE27F9A3100088E19B /* EnterPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterPage.swift; sourceTree = "<group>"; };
+		046F5CF027F9A3250088E19B /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		046F5CF327F9A3450088E19B /* Introduce.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Introduce.mov; sourceTree = "<group>"; };
+		046F5CF527F9A3460088E19B /* UI Video Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UI Video Player.swift"; sourceTree = "<group>"; };
+		046F5CF727F9A8390088E19B /* Course.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Course.mov; sourceTree = "<group>"; };
+		046F5CF927F9A8E40088E19B /* Q&A Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Q&A Page.swift"; sourceTree = "<group>"; };
+		04A0BB8827B2781D00375C5B /* 物品列表View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "物品列表View.swift"; sourceTree = "<group>"; };
+		04A0BB8F27B3C26200375C5B /* AR Coaching Overlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AR Coaching Overlay.swift"; sourceTree = "<group>"; };
+		04A0BB9127B3EDE900375C5B /* 欢迎屏幕.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "欢迎屏幕.storyboard"; sourceTree = "<group>"; };
+		04A0BB9327B4026E00375C5B /* foreach扩展.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "foreach扩展.swift"; sourceTree = "<group>"; };
+		04A0BB9527B4055600375C5B /* RealmSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = RealmSwift.xcframework; sourceTree = "<group>"; };
+		04A0BB9627B4055600375C5B /* Realm.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Realm.xcframework; sourceTree = "<group>"; };
+		04A0BBA227B4DE6B00375C5B /* 检查错误报告.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "检查错误报告.swift"; sourceTree = "<group>"; };
+		04A0BBA927B5123800375C5B /* 对接扩展.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "对接扩展.swift"; sourceTree = "<group>"; };
+		04A0BBCD27B51BB500375C5B /* 当前地图指示框View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "当前地图指示框View.swift"; sourceTree = "<group>"; };
+		04A0BBCF27B6315D00375C5B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04A0BBED27B6504000375C5B /* AR拍照.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AR拍照.swift"; sourceTree = "<group>"; };
+		04A9CB0A27D25E0A00D31789 /* iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D98D1727CA06C7009DC038 /* 使用教学.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = "使用教学.heic"; sourceTree = "<group>"; };
+		04EBA46027BA1BD10023F865 /* 导航.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "导航.swift"; sourceTree = "<group>"; };
+		04EBA46227BA1F120023F865 /* SDWebImageSwiftUI-2.0.2 */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "SDWebImageSwiftUI-2.0.2"; path = "../../../../../Downloads/SDWebImageSwiftUI-2.0.2"; sourceTree = "<group>"; };
+		04EBA48827BA306F0023F865 /* QGrid-master */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "QGrid-master"; path = "../../../../../Downloads/QGrid-master"; sourceTree = "<group>"; };
+		04EBA48B27BA33050023F865 /* WaterfallGrid-1.0.1 */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "WaterfallGrid-1.0.1"; path = "../../../../../Downloads/WaterfallGrid-1.0.1"; sourceTree = "<group>"; };
+		04EBA48F27BA6AE40023F865 /* （弃用）Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "（弃用）Welcome.swift"; sourceTree = "<group>"; };
+		04FB328927BB8DD800F0C255 /* 协调员.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "协调员.swift"; path = "MetaFinder/协调员.swift"; sourceTree = SOURCE_ROOT; };
+		443285637CA5FDEC7A764FA1 /* Pods_MetaFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MetaFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		902DC0A527A7CEAB0091D04E /* 【扩展】分词搜索.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "【扩展】分词搜索.swift"; sourceTree = "<group>"; };
+		902DC0A727A7D1070091D04E /* 地图列表View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "地图列表View.swift"; sourceTree = "<group>"; };
+		902DC0A927A7D16C0091D04E /* 地图的数据模型.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "地图的数据模型.swift"; sourceTree = "<group>"; };
+		902DC0AB27A7D4150091D04E /* 【扩展】加载地图.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "【扩展】加载地图.swift"; sourceTree = "<group>"; };
+		902DC0AD27A7D8E80091D04E /* 临时VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "临时VC.swift"; sourceTree = "<group>"; };
+		902DC0AF27A7DF800091D04E /* 便捷弹窗.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "便捷弹窗.swift"; sourceTree = "<group>"; };
+		902DC0B127A7E5BB0091D04E /* 弹出视图控制器.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "弹出视图控制器.swift"; sourceTree = "<group>"; };
+		902DC0B327A7F4850091D04E /* SwiftUI-Introspect-0.1.4 */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "SwiftUI-Introspect-0.1.4"; path = "../../框架/SwiftUI-Introspect-0.1.4"; sourceTree = "<group>"; };
+		903F5E9827A8496300DAA10E /* MyARSessionObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyARSessionObserver.swift; sourceTree = "<group>"; };
+		9044047B27AEBB3E00F40EA2 /* 数据模型.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "数据模型.swift"; sourceTree = "<group>"; };
+		9065C03F27A3F2550046E957 /* 从ARAnchor创建对象.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "从ARAnchor创建对象.swift"; sourceTree = "<group>"; };
+		9065C04127A3FD280046E957 /* 可视化.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "可视化.swift"; sourceTree = "<group>"; };
+		9065C04327A4022A0046E957 /* 箭头.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "箭头.usdz"; sourceTree = "<group>"; };
+		906BFDB227AD1DC000046BE7 /* 循环.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "循环.swift"; sourceTree = "<group>"; };
+		906BFDB427AD2F1B00046BE7 /* 设置强调色.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "设置强调色.swift"; sourceTree = "<group>"; };
+		906BFDB627AD34F700046BE7 /* 更新AR场景中的Anchor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "更新AR场景中的Anchor.swift"; sourceTree = "<group>"; };
+		9082E9C327A3B7CC006C3DB5 /* MetaFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetaFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9082E9C627A3B7CC006C3DB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9082E9C827A3B7CC006C3DB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9082E9CD27A3B7CC006C3DB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9082E9CF27A3B7CD006C3DB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9082E9D227A3B7CE006C3DB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9082E9DA27A3B870006C3DB5 /* AR扩展.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AR扩展.swift"; sourceTree = "<group>"; };
+		9082E9DE27A3B8A2006C3DB5 /* Drops-1.4.0 */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "Drops-1.4.0"; sourceTree = "<group>"; };
+		9082E9EB27A3B8EA006C3DB5 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		9082E9ED27A3B8F6006C3DB5 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		9082E9EF27A3BA2F006C3DB5 /* MyARSessionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyARSessionDelegate.swift; sourceTree = "<group>"; };
+		9082E9F127A3BB46006C3DB5 /* Debug优化.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Debug优化.swift"; sourceTree = "<group>"; };
+		9082E9F327A3BE0C006C3DB5 /* 提示.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "提示.swift"; sourceTree = "<group>"; };
+		9082E9F527A3BED2006C3DB5 /* 世界地图.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "世界地图.swift"; sourceTree = "<group>"; };
+		9082E9F727A3C3FD006C3DB5 /* 模型.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "模型.swift"; sourceTree = "<group>"; };
+		9082E9F927A3C730006C3DB5 /* 文件选择器.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "文件选择器.swift"; sourceTree = "<group>"; };
+		9082E9FB27A3CFD9006C3DB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9082E9FE27A3E328006C3DB5 /* 物品数据模型.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "物品数据模型.swift"; sourceTree = "<group>"; };
+		9082EA0127A3E366006C3DB5 /* 旧版物品列表View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "旧版物品列表View.swift"; sourceTree = "<group>"; };
+		90A45E2727AA366500D463A7 /* GridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		90A45E2827AA366600D463A7 /* 【扩展】Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "【扩展】Grid.swift"; sourceTree = "<group>"; };
+		90A45E2B27AA36C900D463A7 /* 触感.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "触感.swift"; sourceTree = "<group>"; };
+		90A45E2D27AA399300D463A7 /* URL与String互转.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL与String互转.swift"; sourceTree = "<group>"; };
+		B7A23C4EDB40030FD59E4AB0 /* Pods-MetaFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetaFinder.release.xcconfig"; path = "Target Support Files/Pods-MetaFinder/Pods-MetaFinder.release.xcconfig"; sourceTree = "<group>"; };
+		EAC3E65CE26BD9CD4C415565 /* Pods-MetaFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetaFinder.debug.xcconfig"; path = "Target Support Files/Pods-MetaFinder/Pods-MetaFinder.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9082E9C027A3B7CC006C3DB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A0BBA827B4EABD00375C5B /* FocusEntity in Frameworks */,
+				9082E9EE27A3B8F6006C3DB5 /* libz.tbd in Frameworks */,
+				902DC0B527A7F48F0091D04E /* Introspect in Frameworks */,
+				04A0BB8E27B29FFB00375C5B /* RKPointPin in Frameworks */,
+				9082E9EC27A3B8F1006C3DB5 /* libc++.tbd in Frameworks */,
+				9082E9E127A3B8A9006C3DB5 /* Drops in Frameworks */,
+				04A9CB0B27D25E0A00D31789 /* iOS.framework in Frameworks */,
+				6725420D1F56011BFD85671A /* Pods_MetaFinder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0436E56327C7BEBE00512F5C /* 权限 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "权限";
+			sourceTree = "<group>";
+		};
+		04469F2527B776B600BEF87F /* 扩展 */ = {
+			isa = PBXGroup;
+			children = (
+				046F5CF527F9A3460088E19B /* UI Video Player.swift */,
+				046F5CF027F9A3250088E19B /* Helper.swift */,
+				046EDC4227B8F4D9008A65B8 /* QuickLookData.swift */,
+				9082EA0127A3E366006C3DB5 /* 旧版物品列表View.swift */,
+				902DC0AB27A7D4150091D04E /* 【扩展】加载地图.swift */,
+				902DC0A527A7CEAB0091D04E /* 【扩展】分词搜索.swift */,
+				90A45E2827AA366600D463A7 /* 【扩展】Grid.swift */,
+				902DC0AF27A7DF800091D04E /* 便捷弹窗.swift */,
+				90A45E2B27AA36C900D463A7 /* 触感.swift */,
+				040A405327B7C2EE00FE106C /* 延迟加载图片.swift */,
+			);
+			path = "扩展";
+			sourceTree = "<group>";
+		};
+		04469F2627B776D800BEF87F /* 扩展 */ = {
+			isa = PBXGroup;
+			children = (
+				902DC0A927A7D16C0091D04E /* 地图的数据模型.swift */,
+				9082E9FE27A3E328006C3DB5 /* 物品数据模型.swift */,
+				9065C03F27A3F2550046E957 /* 从ARAnchor创建对象.swift */,
+				9065C04127A3FD280046E957 /* 可视化.swift */,
+				90A45E2D27AA399300D463A7 /* URL与String互转.swift */,
+			);
+			path = "扩展";
+			sourceTree = "<group>";
+		};
+		04517DF527B6B8C200890F5D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9082E9CC27A3B7CC006C3DB5 /* Main.storyboard */,
+				9082E9D127A3B7CE006C3DB5 /* LaunchScreen.storyboard */,
+				04A0BB8F27B3C26200375C5B /* AR Coaching Overlay.swift */,
+				04A0BBCD27B51BB500375C5B /* 当前地图指示框View.swift */,
+				04517DF327B6B88C00890F5D /* 重命名窗口.swift */,
+				04517DF127B6B71500890F5D /* 指示标.swift */,
+				9065C04327A4022A0046E957 /* 箭头.usdz */,
+				9082E9F927A3C730006C3DB5 /* 文件选择器.swift */,
+				04A0BBA227B4DE6B00375C5B /* 检查错误报告.swift */,
+				902DC0AD27A7D8E80091D04E /* 临时VC.swift */,
+				046EDC3C27B8C060008A65B8 /* 悬浮球本体+锚点可视化.swift */,
+				0449DFFB27C4DAF20054A1B5 /* 一碰卡片.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04517DF627B6B8D700890F5D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0449DFD927C4A51A0054A1B5 /* 距离.swift */,
+				04EBA46027BA1BD10023F865 /* 导航.swift */,
+				040A760D27B9FE5D00B67037 /* Debug.swift */,
+				046EDC4427B8FF3F008A65B8 /* 低成本运行AR View.swift */,
+				04517DEF27B6B65E00890F5D /* 手势识别.swift */,
+				04517DEB27B6B10B00890F5D /* 计划任务.swift */,
+				04A0BBED27B6504000375C5B /* AR拍照.swift */,
+				04A0BBA927B5123800375C5B /* 对接扩展.swift */,
+				9082E9EF27A3BA2F006C3DB5 /* MyARSessionDelegate.swift */,
+				903F5E9827A8496300DAA10E /* MyARSessionObserver.swift */,
+				906BFDB627AD34F700046BE7 /* 更新AR场景中的Anchor.swift */,
+				9082E9F527A3BED2006C3DB5 /* 世界地图.swift */,
+				9082E9F727A3C3FD006C3DB5 /* 模型.swift */,
+				046EDC1727B8BB50008A65B8 /* UI旋转Kit.swift */,
+				046EDC3727B8BFDC008A65B8 /* 悬浮球手势.swift */,
+				046EDC3927B8C057008A65B8 /* 悬浮球扩展 */,
+				0411F2CD27F9B27F00ACECE3 /* 地图加载Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		046EDC3927B8C057008A65B8 /* 悬浮球扩展 */ = {
+			isa = PBXGroup;
+			children = (
+				046EDC3B27B8C060008A65B8 /* CGPointExtensions.swift */,
+				046EDC3A27B8C060008A65B8 /* GradientView.swift */,
+				046EDC3D27B8C060008A65B8 /* Spring.swift */,
+			);
+			path = "悬浮球扩展";
+			sourceTree = "<group>";
+		};
+		046F5CF227F9A3340088E19B /* 媒体 */ = {
+			isa = PBXGroup;
+			children = (
+				046F5CF327F9A3450088E19B /* Introduce.mov */,
+				046F5CF727F9A8390088E19B /* Course.mov */,
+			);
+			path = "媒体";
+			sourceTree = "<group>";
+		};
+		04EBA48E27BA6AD70023F865 /* 资源 */ = {
+			isa = PBXGroup;
+			children = (
+				046F5CEE27F9A3100088E19B /* EnterPage.swift */,
+				046F5CF927F9A8E40088E19B /* Q&A Page.swift */,
+				04EBA48F27BA6AE40023F865 /* （弃用）Welcome.swift */,
+			);
+			path = "资源";
+			sourceTree = "<group>";
+		};
+		50C8BE2E959D2864B177801F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EAC3E65CE26BD9CD4C415565 /* Pods-MetaFinder.debug.xcconfig */,
+				B7A23C4EDB40030FD59E4AB0 /* Pods-MetaFinder.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9082E9BA27A3B7CC006C3DB5 = {
+			isa = PBXGroup;
+			children = (
+				9082E9C527A3B7CC006C3DB5 /* MetaFinder */,
+				9082E9DC27A3B880006C3DB5 /* 库 */,
+				9082E9D927A3B869006C3DB5 /* 扩展 */,
+				9082E9C427A3B7CC006C3DB5 /* Products */,
+				9082E9DF27A3B8A9006C3DB5 /* Frameworks */,
+				50C8BE2E959D2864B177801F /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		9082E9C427A3B7CC006C3DB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9082E9C327A3B7CC006C3DB5 /* MetaFinder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9082E9C527A3B7CC006C3DB5 /* MetaFinder */ = {
+			isa = PBXGroup;
+			children = (
+				046F5CF227F9A3340088E19B /* 媒体 */,
+				9082EA0027A3E358006C3DB5 /* UI页 */,
+				9082E9FD27A3E31D006C3DB5 /* 数据管理 */,
+				9082E9FB27A3CFD9006C3DB5 /* Info.plist */,
+				9082E9C627A3B7CC006C3DB5 /* AppDelegate.swift */,
+				9082E9C827A3B7CC006C3DB5 /* ViewController.swift */,
+				04517DF527B6B8C200890F5D /* Views */,
+				04517DF627B6B8D700890F5D /* Models */,
+				04A0BB9127B3EDE900375C5B /* 欢迎屏幕.storyboard */,
+				04D98D1727CA06C7009DC038 /* 使用教学.heic */,
+				0449E00327C4E1570054A1B5 /* 设置（短）.heic */,
+				0449DFFF27C4E11D0054A1B5 /* 区域.heic */,
+				0449DFFD27C4E0C00054A1B5 /* 物品清单（长）.jpeg */,
+				9082E9CF27A3B7CD006C3DB5 /* Assets.xcassets */,
+			);
+			path = MetaFinder;
+			sourceTree = "<group>";
+		};
+		9082E9D927A3B869006C3DB5 /* 扩展 */ = {
+			isa = PBXGroup;
+			children = (
+				906BFDB427AD2F1B00046BE7 /* 设置强调色.swift */,
+				902DC0B127A7E5BB0091D04E /* 弹出视图控制器.swift */,
+				9082E9F327A3BE0C006C3DB5 /* 提示.swift */,
+				9082E9F127A3BB46006C3DB5 /* Debug优化.swift */,
+				9082E9DA27A3B870006C3DB5 /* AR扩展.swift */,
+				906BFDB227AD1DC000046BE7 /* 循环.swift */,
+				04A0BB9327B4026E00375C5B /* foreach扩展.swift */,
+				04A0BBCF27B6315D00375C5B /* ContentView.swift */,
+			);
+			path = "扩展";
+			sourceTree = "<group>";
+		};
+		9082E9DC27A3B880006C3DB5 /* 库 */ = {
+			isa = PBXGroup;
+			children = (
+				0436E56327C7BEBE00512F5C /* 权限 */,
+				04EBA48B27BA33050023F865 /* WaterfallGrid-1.0.1 */,
+				04EBA48827BA306F0023F865 /* QGrid-master */,
+				04EBA46227BA1F120023F865 /* SDWebImageSwiftUI-2.0.2 */,
+				040A405527B7D1B300FE106C /* SwURL-0.4.1 */,
+				04469F2427B7750B00BEF87F /* FocusEntity-2.2.4 */,
+				04A0BB9627B4055600375C5B /* Realm.xcframework */,
+				04A0BB9527B4055600375C5B /* RealmSwift.xcframework */,
+				04469F2327B774BC00BEF87F /* RKPointPin */,
+				902DC0B327A7F4850091D04E /* SwiftUI-Introspect-0.1.4 */,
+				9082E9DE27A3B8A2006C3DB5 /* Drops-1.4.0 */,
+			);
+			path = "库";
+			sourceTree = "<group>";
+		};
+		9082E9DF27A3B8A9006C3DB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04A9CB0A27D25E0A00D31789 /* iOS.framework */,
+				9082E9ED27A3B8F6006C3DB5 /* libz.tbd */,
+				9082E9EB27A3B8EA006C3DB5 /* libc++.tbd */,
+				443285637CA5FDEC7A764FA1 /* Pods_MetaFinder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9082E9FD27A3E31D006C3DB5 /* 数据管理 */ = {
+			isa = PBXGroup;
+			children = (
+				9044047B27AEBB3E00F40EA2 /* 数据模型.swift */,
+				04FB328927BB8DD800F0C255 /* 协调员.swift */,
+				04469F2627B776D800BEF87F /* 扩展 */,
+			);
+			path = "数据管理";
+			sourceTree = "<group>";
+		};
+		9082EA0027A3E358006C3DB5 /* UI页 */ = {
+			isa = PBXGroup;
+			children = (
+				04EBA48E27BA6AD70023F865 /* 资源 */,
+				90A45E2727AA366500D463A7 /* GridView.swift */,
+				04A0BB8827B2781D00375C5B /* 物品列表View.swift */,
+				902DC0A727A7D1070091D04E /* 地图列表View.swift */,
+				04469F2527B776B600BEF87F /* 扩展 */,
+			);
+			path = "UI页";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9082E9C227A3B7CC006C3DB5 /* MetaFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9082E9D627A3B7CE006C3DB5 /* Build configuration list for PBXNativeTarget "MetaFinder" */;
+			buildPhases = (
+				15178468759B6BA7178FFE44 /* [CP] Check Pods Manifest.lock */,
+				9082E9BF27A3B7CC006C3DB5 /* Sources */,
+				9082E9C027A3B7CC006C3DB5 /* Frameworks */,
+				9082E9C127A3B7CC006C3DB5 /* Resources */,
+				04A0BB9F27B4057E00375C5B /* Embed Frameworks */,
+				1963C22C14D964C18009D426 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MetaFinder;
+			packageProductDependencies = (
+				9082E9E027A3B8A9006C3DB5 /* Drops */,
+				902DC0B427A7F48F0091D04E /* Introspect */,
+				04A0BB8D27B29FFB00375C5B /* RKPointPin */,
+				04A0BBA727B4EABD00375C5B /* FocusEntity */,
+			);
+			productName = WorldMap;
+			productReference = 9082E9C327A3B7CC006C3DB5 /* MetaFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9082E9BB27A3B7CC006C3DB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					9082E9C227A3B7CC006C3DB5 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 9082E9BE27A3B7CC006C3DB5 /* Build configuration list for PBXProject "MetaFinder" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = "zh-Hans";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				"zh-Hans",
+				en,
+				Base,
+			);
+			mainGroup = 9082E9BA27A3B7CC006C3DB5;
+			productRefGroup = 9082E9C427A3B7CC006C3DB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9082E9C227A3B7CC006C3DB5 /* MetaFinder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9082E9C127A3B7CC006C3DB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A0BB9227B3EDE900375C5B /* 欢迎屏幕.storyboard in Resources */,
+				046F5CF827F9A8390088E19B /* Course.mov in Resources */,
+				9065C04427A4022A0046E957 /* 箭头.usdz in Resources */,
+				046F5CF427F9A3450088E19B /* Introduce.mov in Resources */,
+				0449DFFE27C4E0C00054A1B5 /* 物品清单（长）.jpeg in Resources */,
+				0449E00427C4E1570054A1B5 /* 设置（短）.heic in Resources */,
+				9082E9D327A3B7CE006C3DB5 /* LaunchScreen.storyboard in Resources */,
+				9082E9D027A3B7CD006C3DB5 /* Assets.xcassets in Resources */,
+				04D98D1827CA06C7009DC038 /* 使用教学.heic in Resources */,
+				0449E00027C4E11D0054A1B5 /* 区域.heic in Resources */,
+				9082E9CE27A3B7CC006C3DB5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15178468759B6BA7178FFE44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MetaFinder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1963C22C14D964C18009D426 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MetaFinder/Pods-MetaFinder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MetaFinder/Pods-MetaFinder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MetaFinder/Pods-MetaFinder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9082E9BF27A3B7CC006C3DB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				902DC0AE27A7D8E80091D04E /* 临时VC.swift in Sources */,
+				04A0BBCE27B51BB500375C5B /* 当前地图指示框View.swift in Sources */,
+				9082E9F027A3BA2F006C3DB5 /* MyARSessionDelegate.swift in Sources */,
+				906BFDB327AD1DC000046BE7 /* 循环.swift in Sources */,
+				90A45E2E27AA399300D463A7 /* URL与String互转.swift in Sources */,
+				9044047C27AEBB3E00F40EA2 /* 数据模型.swift in Sources */,
+				9082E9F627A3BED2006C3DB5 /* 世界地图.swift in Sources */,
+				9082EA0227A3E366006C3DB5 /* 旧版物品列表View.swift in Sources */,
+				902DC0B227A7E5BB0091D04E /* 弹出视图控制器.swift in Sources */,
+				9082E9FA27A3C730006C3DB5 /* 文件选择器.swift in Sources */,
+				04A0BBD027B6315D00375C5B /* ContentView.swift in Sources */,
+				04A0BB9427B4026E00375C5B /* foreach扩展.swift in Sources */,
+				902DC0AA27A7D16C0091D04E /* 地图的数据模型.swift in Sources */,
+				04517DEC27B6B10B00890F5D /* 计划任务.swift in Sources */,
+				906BFDB527AD2F1B00046BE7 /* 设置强调色.swift in Sources */,
+				9082E9F427A3BE0C006C3DB5 /* 提示.swift in Sources */,
+				90A45E2C27AA36C900D463A7 /* 触感.swift in Sources */,
+				90A45E2A27AA366600D463A7 /* 【扩展】Grid.swift in Sources */,
+				9065C04027A3F2550046E957 /* 从ARAnchor创建对象.swift in Sources */,
+				9082E9F227A3BB46006C3DB5 /* Debug优化.swift in Sources */,
+				04A0BB8927B2781D00375C5B /* 物品列表View.swift in Sources */,
+				046F5CFA27F9A8E40088E19B /* Q&A Page.swift in Sources */,
+				0449DFFC27C4DAF20054A1B5 /* 一碰卡片.swift in Sources */,
+				046EDC3827B8BFDC008A65B8 /* 悬浮球手势.swift in Sources */,
+				04FB328A27BB8DD800F0C255 /* 协调员.swift in Sources */,
+				906BFDB727AD34F700046BE7 /* 更新AR场景中的Anchor.swift in Sources */,
+				046EDC3E27B8C060008A65B8 /* GradientView.swift in Sources */,
+				04517DF227B6B71500890F5D /* 指示标.swift in Sources */,
+				046EDC4327B8F4D9008A65B8 /* QuickLookData.swift in Sources */,
+				04A0BBAA27B5123800375C5B /* 对接扩展.swift in Sources */,
+				04EBA46127BA1BD10023F865 /* 导航.swift in Sources */,
+				9082E9FF27A3E328006C3DB5 /* 物品数据模型.swift in Sources */,
+				04A0BBEE27B6504000375C5B /* AR拍照.swift in Sources */,
+				046EDC3F27B8C060008A65B8 /* CGPointExtensions.swift in Sources */,
+				046EDC4527B8FF3F008A65B8 /* 低成本运行AR View.swift in Sources */,
+				902DC0AC27A7D4150091D04E /* 【扩展】加载地图.swift in Sources */,
+				046F5CEF27F9A3100088E19B /* EnterPage.swift in Sources */,
+				9065C04227A3FD280046E957 /* 可视化.swift in Sources */,
+				903F5E9927A8496300DAA10E /* MyARSessionObserver.swift in Sources */,
+				04517DF027B6B65E00890F5D /* 手势识别.swift in Sources */,
+				04A0BB9027B3C26200375C5B /* AR Coaching Overlay.swift in Sources */,
+				902DC0A627A7CEAB0091D04E /* 【扩展】分词搜索.swift in Sources */,
+				046EDC4027B8C060008A65B8 /* 悬浮球本体+锚点可视化.swift in Sources */,
+				90A45E2927AA366600D463A7 /* GridView.swift in Sources */,
+				902DC0B027A7DF800091D04E /* 便捷弹窗.swift in Sources */,
+				046EDC1827B8BB50008A65B8 /* UI旋转Kit.swift in Sources */,
+				0411F2CE27F9B27F00ACECE3 /* 地图加载Model.swift in Sources */,
+				046F5CF127F9A3260088E19B /* Helper.swift in Sources */,
+				9082E9DB27A3B870006C3DB5 /* AR扩展.swift in Sources */,
+				046EDC4127B8C060008A65B8 /* Spring.swift in Sources */,
+				0449DFDA27C4A51A0054A1B5 /* 距离.swift in Sources */,
+				9082E9C927A3B7CC006C3DB5 /* ViewController.swift in Sources */,
+				04EBA49027BA6AE40023F865 /* （弃用）Welcome.swift in Sources */,
+				040A760E27B9FE5D00B67037 /* Debug.swift in Sources */,
+				04517DF427B6B88C00890F5D /* 重命名窗口.swift in Sources */,
+				046F5CF627F9A3460088E19B /* UI Video Player.swift in Sources */,
+				9082E9C727A3B7CC006C3DB5 /* AppDelegate.swift in Sources */,
+				902DC0A827A7D1070091D04E /* 地图列表View.swift in Sources */,
+				9082E9F827A3C3FD006C3DB5 /* 模型.swift in Sources */,
+				040A405427B7C2EE00FE106C /* 延迟加载图片.swift in Sources */,
+				04A0BBA327B4DE6B00375C5B /* 检查错误报告.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9082E9CC27A3B7CC006C3DB5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9082E9CD27A3B7CC006C3DB5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9082E9D127A3B7CE006C3DB5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9082E9D227A3B7CE006C3DB5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9082E9D427A3B7CE006C3DB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_CODE_SIGN_FLAGS[sdk=*]" = "--generate-entitlement-der";
+				OTHER_SWIFT_FLAGS = "-Xfrontend -warn-long-function-bodies=288 -Xfrontend -warn-long-expression-type-checking=288";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9082E9D527A3B7CE006C3DB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				"OTHER_CODE_SIGN_FLAGS[sdk=*]" = "--generate-entitlement-der";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9082E9D727A3B7CE006C3DB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAC3E65CE26BD9CD4C415565 /* Pods-MetaFinder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94C4Z5HMP5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MetaFinder/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "可达";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "使用AR来提供物品管理功能";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "该应用程序使用麦克风录音以进行语音识别。";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "该应用程序使用语音识别将您的语音转换为文本。";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "";
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.5;
+				"OTHER_CODE_SIGN_FLAGS[sdk=*]" = "--generate-entitlement-der";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lightning.metafinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9082E9D827A3B7CE006C3DB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7A23C4EDB40030FD59E4AB0 /* Pods-MetaFinder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94C4Z5HMP5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MetaFinder/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "可达";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "使用AR来提供物品管理功能";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "该应用程序使用麦克风录音以进行语音识别。";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "该应用程序使用语音识别将您的语音转换为文本。";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "";
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.5;
+				"OTHER_CODE_SIGN_FLAGS[sdk=*]" = "--generate-entitlement-der";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lightning.metafinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9082E9BE27A3B7CC006C3DB5 /* Build configuration list for PBXProject "MetaFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9082E9D427A3B7CE006C3DB5 /* Debug */,
+				9082E9D527A3B7CE006C3DB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9082E9D627A3B7CE006C3DB5 /* Build configuration list for PBXNativeTarget "MetaFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9082E9D727A3B7CE006C3DB5 /* Debug */,
+				9082E9D827A3B7CE006C3DB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		04A0BB8D27B29FFB00375C5B /* RKPointPin */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RKPointPin;
+		};
+		04A0BBA727B4EABD00375C5B /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FocusEntity;
+		};
+		902DC0B427A7F48F0091D04E /* Introspect */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Introspect;
+		};
+		9082E9E027A3B8A9006C3DB5 /* Drops */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Drops;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9082E9BB27A3B7CC006C3DB5 /* Project object */;
+}
